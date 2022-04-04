@@ -1,9 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { Observable, Subject } from 'rxjs';
+import { Observable, Subject,catchError,
+        switchMap, debounceTime, of, distinctUntilChanged } from 'rxjs';
 import { OfertasService } from '../ofertas.service';
-import { catchError } from 'rxjs';
 import { Oferta } from '../shared/oferta.model';
-import { switchMap, debounceTime, of, distinctUntilChanged } from 'rxjs';
 
 @Component({
   selector: 'app-topo',
@@ -12,7 +11,6 @@ import { switchMap, debounceTime, of, distinctUntilChanged } from 'rxjs';
   providers: [ OfertasService ]
 })
 export class TopoComponent implements OnInit {
-
   public ofertas?: Observable<Oferta[]>
   public ofertas2?: Oferta[]
   private subjectPesquisa: Subject<string> = new Subject<string>()
