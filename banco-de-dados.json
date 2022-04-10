@@ -227,6 +227,27 @@
       "complemento": "",
       "formaPagamento": "dinheiro",
       "id": 7
+    },
+    {
+      "endereco": "Rua Corvinal",
+      "numero": "101",
+      "complemento": "Casa Azul",
+      "formaPagamento": "dinheiro",
+      "id": 8
+    },
+    {
+      "endereco": "Rua Lufa-Lufa",
+      "numero": "150",
+      "complemento": "",
+      "formaPagamento": "debito",
+      "id": 9
+    },
+    {
+      "endereco": "Rua Bololo",
+      "numero": "10",
+      "complemento": "",
+      "formaPagamento": "dinheiro",
+      "id": 10
     }
   ]
 }

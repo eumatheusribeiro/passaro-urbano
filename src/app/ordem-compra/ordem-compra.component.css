@@ -1,7 +1,12 @@
-.is-invalid {
+.ordem-compra {
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+.ng-invalid.ng-touched {
     border-color: rgb(228, 54, 54);
 }
 
-.is-valid {
+.ng-valid.ng-touched {
     border-color: rgb(31, 196, 31);
 }
