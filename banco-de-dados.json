@@ -248,6 +248,20 @@
       "complemento": "",
       "formaPagamento": "dinheiro",
       "id": 10
+    },
+    {
+      "endereco": "Rua Abobora",
+      "numero": "14",
+      "complemento": null,
+      "formaPagamento": "dinheiro",
+      "id": 11
+    },
+    {
+      "endereco": "Rua dos Cogumelos",
+      "numero": "145",
+      "complemento": null,
+      "formaPagamento": "debito",
+      "id": 12
     }
   ]
 }
