@@ -1,0 +1,7 @@
+.is-invalid {
+    border-color: rgb(228, 54, 54);
+}
+
+.is-valid {
+    border-color: rgb(31, 196, 31);
+}
